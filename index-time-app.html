@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time & Date Widget</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <link rel="stylesheet" href="style-time-app.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font:bold 12px 'Play', sans-serif;
+    background-image: linear-gradient(rgba(8, 2, 84, 0.353), rgba(0, 8, 51, 0.271)), url(search_bar_img/images/world\ map.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.clock{
+    color: white;
+    padding: 40px;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #2a235c67, #878ec1cc);
+}
+#Date{
+    font-size: 20px !important;
+    text-align: center;
+}
+.clock ul{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap: 15px;
+}
+/* cursor */
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    background-color: black;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999999; /* so that it stays on top of all other elements */
+}
+/* title */
+h1{
+    color: white;
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 140px;
+    font-size: 40px;	
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+<!--font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nabla&family=Neonderthaw&family=Play:wght@700&family=Sixtyfour&display=swap" rel="stylesheet">
+<h1>Time & Date Widget</h1>
+<div class="container">
+    <div class="clock">
+        <div id="Date">Monday 01 January 2024</div>
+        <ul>
+        <li id="hours">05</li>
+            <li id="point">:</li>
+            <li id="min">20</li>
+            <li id="point">:</li>
+            <li id="sec">30</li>
+        </ul>
+    </div>
+</div>
+<script src=""></script>
+<!--cursor-->
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+</body>
+<script src="script-time-app.js"></script>
+</html>

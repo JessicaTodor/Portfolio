@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Generator</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <link rel="stylesheet" href="style-gradient-app.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        font-family: "Play",sans-serif;
+    }
+    body{
+      background-image: linear-gradient(rgba(8, 2, 84, 0.353), rgba(0, 8, 51, 0.271)), url(search_bar_img/images/world\ map.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        overflow-x: hidden;
+        height: 100vh;
+    }
+    h1{
+      color: white;
+      display: flex;
+      text-align: center;
+      position: absolute;
+      top: 10px;
+      font-size: 40px;	
+      margin-top: 20px;
+    }
+    .container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+    .wrapper{
+        width: 80vmin;
+        background: linear-gradient(135deg, #2a235c67, #878ec1cc);
+        padding: 50px 30px;
+        border-radius: 30px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 50%;
+        box-shadow: 0 20px 25px rgba(60,60,100,0.15);
+    }
+    #output-color{
+        width: 100%;
+        height: 35vmin;
+        border-radius: 5px;
+    }
+    #output-code{
+        background-color: #c7acf1;
+        font-size: 2.3vmin;
+        font-weight: 400;
+        color: #3f415f;
+        width: 100%;
+        padding: 15px 10px;
+        border-radius: 10px;
+        margin: 20px 0 40px 0;
+    }
+    .btn-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .btn-container button{
+        background-color: #17154a;
+        min-width: 40%;
+        padding: 15px 0;
+        color: #ffffff;
+        border-radius: 30px;
+        font-size: 2.6vmin;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .btn-container button:hover{
+      opacity: 80%;
+  }
+      /* cursor */
+    .circle {
+      height: 24px;
+      width: 24px;
+      border-radius: 24px;
+      background-color: black;
+      position: fixed; 
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      z-index: 99999999; /* so that it stays on top of all other elements */
+    }
+    </style>
+  </head>
+
+<body>
+<!--font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nabla&family=Neonderthaw&family=Play:wght@700&family=Sixtyfour&display=swap" rel="stylesheet">
+  <div class="container">
+  <h1>Random Gradient Generator</h1>
+  <div class="wrapper">
+      <div id="output-color"></div>
+      <input type="text" id="output-code" readonly>
+      <div class="btn-container">
+          <button id="generate-btn">Generate</button>
+          <button id="copy-btn">Copy</button>
+      </div>
+  </div>
+</div>
+
+  <!--cursor-->
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+</body>
+
+<script src="script-gradient-app.js"></script> 
+</html>
