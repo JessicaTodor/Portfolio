@@ -18,14 +18,17 @@
         <link href="css/styles.css" rel="stylesheet" />
         <!-- font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap" rel="stylesheet">
-   
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+        <!--animation-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
-    <body id="Startseite" style=" font-family: 'Ubuntu', sans-serif;">
+    <body id="Startseite" style=" font-family: 'Ubuntu', sans-serif; overflow-x:hidden;">
         <!-- Navigation-->
         <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
         <nav id="sidebar-wrapper" style="background-color: #0e0e0e; opacity:90%;">
@@ -42,8 +45,8 @@
         <!-- Header-->
         <header class="masthead d-flex align-items-center">
             <div class="container px-4 px-lg-5 text-center" id="title" style="font-family:'Ubuntu', sans-serif;">
-                <h1 class="mb-1" style="font-size: 110px; font-weight:700;">Jessica Todor.</h1>
-                <h3 class="mb-5" style="font-size: 35px; font-weight:400; font-family:'Ubuntu', sans-serif;">Anfänger Front-End-Webentwickler & UI/UX Designer.</h3>
+                <h1 class="mb-1" style="font-size: 110px; font-weight:700;" data-aos="fade-left" data-aos-duration="1000">Jessica Todor.</h1>
+                <h3 class="mb-5" style="font-size: 35px; font-weight:400; font-family:'Ubuntu', sans-serif;" data-aos="fade-right" data-aos-duration="1000">Anfänger Front-End-Webentwickler & UI/UX Designer.</h3>
                 <a id="arrow-btn" class="btn btn-radius" href="#Profil"><i class="fa-solid fa-angle-down"></i></a>
             </div>
         </header>
@@ -52,42 +55,42 @@
             <div class="container px-4 px-lg-5 text-center">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-10">
-                        <h2 style="font-weight:400; ">Hallo 👋, ich bin <span style="border-bottom: solid 1px #000;">Jessica</span>!</h2>
-                        <p class="lead mb-5">Eine Anfängerin in Webentwicklung und UI/UX-Design. In meiner Freizeit befasse ich mich mit der Front-End-Webentwicklung und habe 
+                        <h2 style="font-weight:400;" data-aos="fade-left">Hallo 👋, ich bin <span style="border-bottom: solid 1px #000;">Jessica</span>!</h2>
+                        <p class="lead mb-5" data-aos="fade-left" data-aos-duration="1000">Eine Anfängerin in Webentwicklung und UI/UX-Design. In meiner Freizeit befasse ich mich mit der Front-End-Webentwicklung und habe 
                             dadurch einige Kenntnisse in diesem Bereich erlangt. Ich bin ständig auf der Suche nach Wege, mich weiterzuentwickeln und meinen Horizont zu erweitern. 
                             Ob andere Programmiersprachen oder Technologien - ich bin offen für neues Wissen und Erfahrungen, die mir helfen können, mich weiterhin zu verbessern.
                         </p>
-                        <a class="btn btn-dark btn-xl btn-round" href="#Kenntnisse">Kenntnisse</a>
-                        <a class="btn btn-dark btn-xl btn-round-ghost" href="#Lebenslauf">Lebenslauf</a>
+                        <a class="btn btn-dark btn-xl btn-round" href="#Kenntnisse" data-aos="fade-left">Kenntnisse</a>
+                        <a class="btn btn-dark btn-xl btn-round-ghost" href="#Lebenslauf" data-aos="fade-left" data-aos-duration="1000">Lebenslauf</a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Kenntnisse-->
-        <section style="background-color: #121212f8; color: #ffffff;">
+        <section style="background-color: #121212f8; color: #ffffff;" data-aos="fade-right" data-aos-duration="1000">
         <section class="content-section bg-primary text-white text-center" id="Kenntnisse">
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading">
                     <h3 class=" mb-3">___________________________</h3>
-                    <h2 class="mb-5">Meine Kenntnisse</h2>
+                    <h2 class="mb-5" data-aos="fade-up">Meine Kenntnisse</h2>
                </div>
                 <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0" data-aos="fade-up" data-aos-duration="1000">
                         <span class="service-icon rounded-circle mx-auto mb-3"><i class="fa-brands fa-html5" style="font-size: 70px; color:#f08f07; margin-top:25px;"></i></span>
                         <h4 style="font-size: 40px;"><strong>70%</strong></h4>
                         <p style="font-size: 20px;" class="text-faded mb-0">HTML</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0" data-aos="fade-up" data-aos-duration="1000">
                         <span class="service-icon rounded-circle mx-auto mb-3"><i class="fa-brands fa-css3-alt" style="font-size: 70px; color:#1a84db; margin-top:25px;"></i></span>
                         <h4 style="font-size: 40px;"><strong>40%</strong></h4>
                         <p style="font-size: 20px;" class="text-faded mb-0">CSS</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0" data-aos="fade-up" data-aos-duration="1000">
                         <span class="service-icon rounded-circle mx-auto mb-3"><i class="fa-brands fa-js" style="font-size: 60px; color:#e9d900; margin-top:25px;"></i></span>
                         <h4 style="font-size: 40px;"><strong>15%</strong></h4>
                         <p style="font-size: 20px;" class="text-faded mb-0">Javascript</p>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="1000">
                         <span class="service-icon rounded-circle mx-auto mb-3"><i class="fa-brands fa-bootstrap" style="font-size: 60px; color:#6414e4; margin-top:25px;"></i></span>
                         <h4 style="font-size: 40px;"><strong>85%</strong></h4>
                         <p style="font-size: 20px;" class="text-faded mb-0">Bootstrap</p>
@@ -99,10 +102,10 @@
         <!-- Lebenslauf-->
         <section class="callout" style="border-radius:0" id="Lebenslauf">
             <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mx-auto mb-5" style="color: #0e0e0e;">
+                <h2 class="mx-auto mb-5" style="color: #0e0e0e;" data-aos="fade-right">
                     Mein Lebenslauf
                 </h2>
-                <a class="btn btn-dark btn-round btn-xl" href="cv.pdf">PDF Datei</a>
+                <a class="btn btn-dark btn-round btn-xl" href="cv.pdf" data-aos="fade-right" data-aos-duration="1000">PDF Datei</a>
             </div>
         </section>
 
@@ -110,8 +113,8 @@
     <!--title-->
     <div class="content-section-heading text-center" style="color: #0e0e0e;">
         <h3 class="text-secondary mb-0" style="font-size: 25px; font-weight:400;
-        margin-top:150px;">2023 - 2024</h3>
-        <h2 class="mb-5 pb-5" style="font-size: 60px;">Aktuelle Projekte</h2>
+        margin-top:150px;" data-aos="fade-up">2023 - 2024</h3>
+        <h2 class="mb-5 pb-5" style="font-size: 60px;" data-aos="fade-up" data-aos-duration="1000">Aktuelle Projekte</h2>
    <hr style="width: 80%; margin-left:15%;">
     </div>
     
@@ -124,17 +127,17 @@
     <!--projekt 01-->
     <div class="row featurette">
     <div class="col-md-7 mt-5 mb-5">
-        <p class="letter-spacing text-uppercase fs-6 fw-bold text-lightblue" style="color:#757575;">Projekt 01</p>
-        <h2 class="featurette-heading lh-1 text-capitalize display-6" style="font-weight: 700;">Krypto - <br> Statische Webseite<span class="text-body-light"></span></h2>
-        <p class="fw-light text-sm-left" style="font-size: 20px;">Bei diesem Projekt handelt es sich um eine Übung zum <br> Erlernen des UI/UX
+        <p class="letter-spacing text-uppercase fs-6 fw-bold text-lightblue" style="color:#757575;" data-aos="fade-right" data-aos-delay="100">Projekt 01</p>
+        <h2 class="featurette-heading lh-1 text-capitalize display-6" style="font-weight: 700;" data-aos="fade-right" data-aos-duration="1000">Krypto - <br> Statische Webseite<span class="text-body-light"></span></h2>
+        <p class="fw-light text-sm-left" style="font-size: 20px;" data-aos="fade-right">Bei diesem Projekt handelt es sich um eine Übung zum <br> Erlernen des UI/UX
             Designs zur Erstellung moderner <br> Websites. Es wurde mit HTML, CSS und dem Bootstrap-Framework in 2023 erstellt.</p>
-        <a href="KRYPTO.html" style="text-decoration: none;"><button type="button" class="btn-res letter-spacing btn-purple-full btn-circle btn text-uppercase py-3 px-5 mt-4" style="margin-right:30px; color:#fff; font-weight:400;">Vorschau</button></a>
-        <a href="https://github.com/JessicaTodor/static-website-UI-UX" style="text-decoration: none;"><button type="button" class="btn-res letter-spacing btn-purple btn-circle btn text-uppercase py-3 px-5 mt-4" style="font-weight:500;">Code</button></a>
+        <a href="KRYPTO.html" style="text-decoration: none;"><button type="button" class="btn-res letter-spacing btn-purple-full btn-circle btn text-uppercase py-3 px-5 mt-4" style="margin-right:30px; color:#fff; font-weight:400;" data-aos="fade-right">Vorschau</button></a>
+        <a href="https://github.com/JessicaTodor/static-website-UI-UX" style="text-decoration: none;"><button type="button" class="btn-res letter-spacing btn-purple btn-circle btn text-uppercase py-3 px-5 mt-4" style="font-weight:500;" data-aos="fade-right" data-aos-duration="1000">Code</button></a>
     </div>
     <div class="col-md-5">
         <img class="img-fluid mx-auto mt-5"  
         style="min-width: 140%; border-radius:20px;"  
-        src="01_project.PNG" alt="">
+        src="01_project.PNG" alt="" data-aos="fade-left">
     </div>
     </div>
     </div>
@@ -149,16 +152,16 @@
             <!--projekt 02-->
     <div class="row featurette">
         <div class="col-md-7 mt-5 mb-5">
-        <p class="letter-spacing text-uppercase fs-6 fw-bold text-lightblue" style="color:#757575;">Projekt 02</p>
-        <h2 class="featurette-heading lh-1  display-6" style="font-weight: 700;">Search.net - <br> Suchmaschine<span class="text-body-light"></span></h2>
-        <p class="fw-light text-sm-left" style="font-size: 20px;"> Search.net wurde von <a href="https://yandex.com/">yandex.com</a> inspiriert. Das Projekt <br> verfügt über eine Suchfunktion und zusatzilche tools mit <br> API Verbindungen. Der Schwerpunkt lag hierbei auf das <br> Erlernen von Javascript und wurde Ende 2023 fertiggestellt.</p>
-        <a href="search.net.html" style="text-decoration: none;"><button type="button" class="btn-res letter-spacing btn-purple-full btn-circle btn text-uppercase py-3 px-5 mt-4" style="margin-right:30px; color:#fff; font-weight:400;">Vorschau</button></a>
-        <a href="https://github.com/JessicaTodor/search.net" style="text-decoration: none;"><button type="button" class="btn-res letter-spacing btn-purple btn-circle btn text-uppercase py-3 px-5 mt-4" style="font-weight:500;">Code</button></a>
+        <p class="letter-spacing text-uppercase fs-6 fw-bold text-lightblue" style="color:#757575;" data-aos="fade-right" data-aos-delay="100">Projekt 02</p>
+        <h2 class="featurette-heading lh-1  display-6" style="font-weight: 700;" data-aos="fade-right" data-aos-duration="1000">Search.net - <br> Suchmaschine<span class="text-body-light"></span></h2>
+        <p class="fw-light text-sm-left" style="font-size: 20px;" data-aos="fade-right"> Search.net wurde von <a href="https://yandex.com/">yandex.com</a> inspiriert. Das Projekt <br> verfügt über eine Suchfunktion und zusatzilche tools mit <br> API Verbindungen. Der Schwerpunkt lag hierbei auf das <br> Erlernen von Javascript und wurde Ende 2023 fertiggestellt.</p>
+        <a href="search.net.html" style="text-decoration: none;"><button type="button" class="btn-res letter-spacing btn-purple-full btn-circle btn text-uppercase py-3 px-5 mt-4" style="margin-right:30px; color:#fff; font-weight:400;" data-aos="fade-right">Vorschau</button></a>
+        <a href="https://github.com/JessicaTodor/search.net" style="text-decoration: none;"><button type="button" class="btn-res letter-spacing btn-purple btn-circle btn text-uppercase py-3 px-5 mt-4" style="font-weight:500;" data-aos="fade-right" data-aos-duration="1000">Code</button></a>
         </div>
         <div class="col-md-5">
         <img class="img-fluid mx-auto mt-5" 
         style="min-width: 140%; border-radius:20px;"  
-        src="02_project.PNG" alt="">
+        src="02_project.PNG" alt="" data-aos="fade-left">
         </div>
     </div>
         </div>
@@ -172,16 +175,16 @@
             <!--projekt 03-->
             <div class="row featurette">
             <div class="col-md-7 mt-5 mb-5">
-                <p class="letter-spacing text-uppercase fs-6 fw-bold text-lightblue" style="color:#757575;" >Projekt 03</p>
-                <h2 class="featurette-heading lh-1 text-capitalize display-6" style="font-weight: 700;">LIBRARY + <br>digitale Bibliothek<span class="text-body-light"></span></h2>
-                <p class="fw-light text-sm-left" style="font-size: 20px;">Library + ist eine Online-Bibliothek für Programmierbücher. <br> Die Erkenntnisse aus den früheren Projekten wurden hier in diesem umfangreicheren Projekt zusammengeführt. Es verfügt über mehrere Webseiten, eine Suchfunktion und KI-Chat-Unterstützung über die  API. Erstellt wurde dieses Projekt Anfangs 2024.</p>
-                <a href="LIBRARY.html" style="text-decoration: none;"><button type="button" class="btn-res letter-spacing btn-purple-full btn-circle btn text-uppercase py-3 px-5 mt-4" style="margin-right:30px; color:#fff; font-weight:400;">Vorschau</button></a>
-                <a href="https://github.com/JessicaTodor/LIBRARY" style="text-decoration: none;"><button type="button" class="btn-res letter-spacing btn-purple btn-circle btn text-uppercase py-3 px-5 mt-4" style="font-weight:500;">Code</button></a>
+                <p class="letter-spacing text-uppercase fs-6 fw-bold text-lightblue" style="color:#757575;" data-aos="fade-right" data-aos-delay="100">Projekt 03</p>
+                <h2 class="featurette-heading lh-1 text-capitalize display-6" style="font-weight: 700;" data-aos="fade-right" data-aos-duration="1000">LIBRARY + <br>digitale Bibliothek<span class="text-body-light"></span></h2>
+                <p class="fw-light text-sm-left" style="font-size: 20px;" data-aos="fade-right">Library + ist eine Online-Bibliothek für Programmierbücher. <br> Die Erkenntnisse aus den früheren Projekten wurden hier in diesem umfangreicheren Projekt zusammengeführt. Es verfügt über mehrere Webseiten, eine Suchfunktion und KI-Chat-Unterstützung über die  API. Erstellt wurde dieses Projekt Anfangs 2024.</p>
+                <a href="LIBRARY.html" style="text-decoration: none;"><button type="button" class="btn-res letter-spacing btn-purple-full btn-circle btn text-uppercase py-3 px-5 mt-4" style="margin-right:30px; color:#fff; font-weight:400;" data-aos="fade-right">Vorschau</button></a>
+                <a href="https://github.com/JessicaTodor/LIBRARY" style="text-decoration: none;"><button type="button" class="btn-res letter-spacing btn-purple btn-circle btn text-uppercase py-3 px-5 mt-4" style="font-weight:500;" data-aos="fade-right" data-aos-duration="1000">Code</button></a>
             </div>
             <div class="col-md-5">
                 <img class="img-fluid mx-auto mt-5"  
                 style="min-width: 140%; border-radius:20px;"  
-                src="03_project.PNG" alt="">
+                src="03_project.PNG" alt="" data-aos="fade-left">
             </div>
             </div>
         
@@ -192,7 +195,7 @@
 </section>
 <!--footer-->
 <hr style="width: 80%; margin-left:15%;">
-<div class="container text-dark w-75" id="Kontakt">
+<div class="container text-dark w-75" id="Kontakt"  data-aos="fade-up"   data-aos-duration="1000">
     <footer class="pt-5">
     <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
         
@@ -212,5 +215,10 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!--animation-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
 </html>
