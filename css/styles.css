@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 .masthead
 :root {
@@ -10949,7 +10950,7 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("lebenslauf.png");
+  background-image: url(lebenslauf.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11118,9 +11119,19 @@ footer.footer .social-link:hover {
   font-size: 30px;
   color: #fff;
 }
-.btn-round{
+.btn-round-k{
+  background-color: #3e7ed7; 
+  color:#fff;
   border-radius: 40px;
   margin-right: 20px;
+}
+.btn-round-k:hover{
+  background-color: #2861b0;
+  color: #fff;
+}
+.btn-round-ghost:hover{
+  background-color: #0e0e0e;
+  color: #fff;
 }
 .btn-round-ghost{
   border-radius: 40px;
@@ -11131,19 +11142,20 @@ footer.footer .social-link:hover {
 
 
 :root{
-  --main: #0e0e0e;
+  --main: #3e7ed7;
+  --dark: #0e0e0e;
 }
 .btn-circle {
   border-radius: 50px;
 }
 .btn-purple{
   background-color: transparent;
-  border-color: var(--main);
+  border-color: var(--dark);
   transition: transform 0.3s;
 }
 .btn-purple:hover{
   background-color: #00000015;
-  border-color: var(--main);
+  border-color: var(--dark);
   transform: translateY(-10px);
 }
 .btn-purple-full{
@@ -11154,8 +11166,8 @@ footer.footer .social-link:hover {
 }
 .btn-purple-full:hover{
   opacity: 90%;
-  background-color: #0e0e0e;
-  border-color: var(--main);
+  background-color: var(--dark);
+  border-color: var(--dark);
   transform: translateY(-10px);
 }
 .btn-purple-w:hover{
