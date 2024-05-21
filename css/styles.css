@@ -10820,12 +10820,10 @@ html {
   width: 100%;
   height: 100%;
 }
-
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
-
 .content-section-heading h2, .content-section-heading .h2 {
   font-size: 3rem;
 }
@@ -10833,11 +10831,9 @@ html {
   font-size: 1rem;
   text-transform: uppercase;
 }
-
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
-
 .scroll-to-top {
   position: fixed;
   right: 15px;
@@ -10998,17 +10994,19 @@ footer.footer .social-link:hover {
   }
 }
 .masthead {
-  min-height: 30rem;
   position: relative;
   display: table;
-  width: 100%;
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url('background.jpg');
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url('background.png');
+  background-color: #fff;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+#title{
+  background-color: transparent;
 }
 .masthead h1, .masthead .h1 {
   font-size: 4rem;
@@ -11090,7 +11088,8 @@ footer.footer .social-link:hover {
 }
 
 .service-icon {
-  background-color: #fff;
+  background: linear-gradient( rgba(255,166,110,1) 0%, rgba(202,166,161,1) 39%, rgba(132,167,228,1) 80%, rgba(108,167,251,1) 91%, rgba(62,126,215,1) 100%);
+
   color: #1D809F;
   height: 7rem;
   width: 7rem;
@@ -11105,15 +11104,15 @@ footer.footer .social-link:hover {
 .btn-radius{
   border-radius: 50%;
   padding: 20px 30px;
-  border: solid 2px #000;
+  border: solid 2px #0e0e0e;
 }
 .btn-radius:hover{
-  background-color: #000000ea;
-  border: solid 2px #000000ea;
+  background-color: #0e0e0e;
+  border: solid 2px #0e0e0e;
 }
 #arrow-btn{
   font-size: 30px;
-  color: #000000ea;
+  color: #0e0e0e;
 }
 #arrow-btn:hover{
   font-size: 30px;
@@ -11139,8 +11138,6 @@ footer.footer .social-link:hover {
   background-color: transparent;
   color: #111;
 }
-
-
 :root{
   --main: #3e7ed7;
   --dark: #0e0e0e;
@@ -11150,25 +11147,25 @@ footer.footer .social-link:hover {
 }
 .btn-purple{
   background-color: transparent;
-  border-color: var(--dark);
+  border-color: #fff;
   transition: transform 0.3s;
 }
 .btn-purple:hover{
-  background-color: #00000015;
-  border-color: var(--dark);
+  background-color: #ffffff10;
+  border-color: #fff;
   transform: translateY(-10px);
 }
 .btn-purple-full{
-  background-color: transparent;
-  border-color: var(--main);
+  color: #0e0e0e;
+  background: transparent;
+  border-color: transparent;
+  background-image:linear-gradient(90deg, rgba(62,126,215,1) 0%, rgba(255,170,118,1) 100%);
   transition: transform 0.3s;
-  background-color: var(--main);
 }
 .btn-purple-full:hover{
-  opacity: 90%;
-  background-color: var(--dark);
-  border-color: var(--dark);
-  transform: translateY(-10px);
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
 }
 .btn-purple-w:hover{
   border-color: var(--main);
@@ -11215,8 +11212,45 @@ footer.footer .social-link:hover {
   background-color: #0a0e3b;
   border-color: #0a0e3b;
 }
-
 .contact-hover:hover{
   opacity: 80%;
   cursor: pointer;
+}
+.wrapper-ak{
+  background: radial-gradient(circle, rgba(255,166,110,1) 0%, rgba(202,166,161,1) 39%, rgba(132,167,228,1) 80%, rgba(108,167,251,1) 91%, rgba(62,126,215,1) 100%);
+  border-radius: 0px 0px 0px 0px;
+  width: 100%;
+  margin-top:2%;
+  height: auto;
+}
+.about-box{
+  background-color: #ffffff60;
+}
+.wrapper-k{
+  background-color: #0e0e0e;
+  height: 160%;
+}
+.Kenntnisse-title{
+  background: linear-gradient( rgba(255,166,110,1) 0%, rgba(202,166,161,1) 50%, rgba(132,167,228,1) 80%, rgba(108,167,251,1) 91%, rgba(62,126,215,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.projects-title{
+  background: linear-gradient( rgba(255,166,110,1) 0%, rgba(202,166,161,1) 30%, rgba(132,167,228,1) 40%, rgba(108,167,251,1) 91%, rgba(62,126,215,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.wrapper-p3{
+  background-color: #ffffff05;
+  border: solid 1px transparent;
+  border-radius: 0px;
+  min-width: 95%;
+  border-radius: 50px;
+}
+.img-border{
+  background: linear-gradient(180deg, rgba(255,170,118,1) 0%,  rgba(62,126,215,1) 100%) border-box;
+  border: 5px solid transparent;
+  border-radius: 50px;
 }
