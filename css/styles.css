@@ -11088,7 +11088,7 @@ footer.footer .social-link:hover {
 }
 
 .service-icon {
-  /* background: linear-gradient( rgba(255,166,110,1) 0%, rgba(202,166,161,1) 39%, rgba(132,167,228,1) 80%, rgba(108,167,251,1) 91%, rgba(62,126,215,1) 100%); */
+  background: linear-gradient(135deg, rgba(255,158,147,1) 27%, rgba(78,152,255,1) 67%);
   height: 7.5rem; 
   width: 7.5rem;
   display: block;
@@ -11122,6 +11122,8 @@ footer.footer .social-link:hover {
 #arrow-btn:hover{
   font-size: 30px;
   color: #fff;
+  transition: ease-in-out 0.1s;
+  transform: translateY(-5px);
 }
 .btn-round-k{
   background-color: #3e7ed7; 
@@ -11139,9 +11141,9 @@ footer.footer .social-link:hover {
 }
 .btn-round-ghost{
   border-radius: 40px;
-  border: solid 1px #111;
+  border: solid 1px #0e0e0e;
   background-color: transparent;
-  color: #111;
+  color: #0e0e0e;
 }
 :root{
   --main: #3e7ed7;
@@ -11163,7 +11165,7 @@ footer.footer .social-link:hover {
 .btn-purple-full{
   color: #fff;
   border-color: transparent;
-  background-image:linear-gradient(90deg, rgba(62,126,215,1) 0%, rgba(255,170,118,1) 100%);
+  background-image: linear-gradient(135deg, rgba(255,186,178,1) 6%, rgba(78,152,255,1) 85%);
   transition: transform 0.3s;
 }
 .btn-purple-full:hover{
@@ -11218,11 +11220,12 @@ footer.footer .social-link:hover {
   border-color: #0a0e3b;
 }
 .contact-hover:hover{
-  opacity: 80%;
+  opacity: 60%;
   cursor: pointer;
+  transform: translateY(-5px);
 }
 .wrapper-ak{
-  background: radial-gradient(circle, rgba(255,166,110,1) 0%, rgba(202,166,161,1) 39%, rgba(132,167,228,1) 80%, rgba(108,167,251,1) 91%, rgba(62,126,215,1) 100%);
+  background: linear-gradient(135deg, rgba(255,186,178,1) 6%, rgba(78,152,255,1) 85%);
   border-radius: 50px;
   width: 100%;
   margin-top:2%;
@@ -11238,7 +11241,7 @@ footer.footer .social-link:hover {
 .Kenntnisse-title{
  
   letter-spacing:2px;
-  background: linear-gradient( rgba(255,166,110,1) 0%, rgba(202,166,161,1) 50%, rgba(132,167,228,1) 80%, rgba(108,167,251,1) 91%, rgba(62,126,215,1) 100%);
+  background: linear-gradient(135deg, rgba(255,158,147,1) 30%, rgba(78,152,255,1) 65%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -11248,8 +11251,7 @@ footer.footer .social-link:hover {
 }
 
 .projects-title{
-  background: linear-gradient( rgba(255,166,110,1) 0%, rgba(202,166,161,1) 30%, rgba(132,167,228,1) 40%, rgba(108,167,251,1) 91%, rgba(62,126,215,1) 100%);
-  -webkit-background-clip: text;
+  background: linear-gradient(135deg, rgba(255,158,147,1) 35%, rgba(78,152,255,1) 67%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -11260,12 +11262,19 @@ footer.footer .social-link:hover {
   min-width: 95%;
 }
 .img-border{
-  background: linear-gradient(180deg, rgba(255,170,118,1) 0%,  rgba(62,126,215,1) 100%) border-box;
-  border: 5px solid transparent;
+  background: linear-gradient(135deg, rgba(255,158,147,1) 27%, rgba(78,152,255,1) 67%) border-box;
+  border: 7px solid transparent;
   border-radius: 50px;
 }
 .projects-box{
   padding-top: 7%;
   border-radius: 50px;
+}
+footer{
+  background: #0e0e0e10;
+  border-radius: 50px 50px 0 0;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 10%;
 }
 
