@@ -11088,16 +11088,21 @@ footer.footer .social-link:hover {
 }
 
 .service-icon {
-  background: linear-gradient( rgba(255,166,110,1) 0%, rgba(202,166,161,1) 39%, rgba(132,167,228,1) 80%, rgba(108,167,251,1) 91%, rgba(62,126,215,1) 100%);
-
-  color: #1D809F;
-  height: 7rem;
-  width: 7rem;
+  /* background: linear-gradient( rgba(255,166,110,1) 0%, rgba(202,166,161,1) 39%, rgba(132,167,228,1) 80%, rgba(108,167,251,1) 91%, rgba(62,126,215,1) 100%); */
+  height: 7.5rem; 
+  width: 7.5rem;
   display: block;
   line-height: 7.5rem;
   font-size: 2.25rem;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  opacity: 90%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
+.service-icon:hover{
+  transform: translateY(-10px);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.5) 0px 6px 7px -3px;
+}
+
 #title{
   color: #000000ea;
 } 
@@ -11147,24 +11152,24 @@ footer.footer .social-link:hover {
 }
 .btn-purple{
   background-color: transparent;
-  border-color: #fff;
-  transition: transform 0.3s;
+  border-color: #0e0e0e;
+  color: #0e0e0e;
 }
 .btn-purple:hover{
-  background-color: #ffffff10;
-  border-color: #fff;
-  transform: translateY(-10px);
+  background-color: #0e0e0e;
+  border-color: #0e0e0e;
+  color: #fff;
 }
 .btn-purple-full{
-  color: #0e0e0e;
-  background: transparent;
+  color: #fff;
   border-color: transparent;
   background-image:linear-gradient(90deg, rgba(62,126,215,1) 0%, rgba(255,170,118,1) 100%);
   transition: transform 0.3s;
 }
 .btn-purple-full:hover{
-  background: transparent;
-  border-color: #fff;
+  background-image: none;
+  background-color: #0e0e0e;
+  border-color: #0e0e0e;
   color: #fff;
 }
 .btn-purple-w:hover{
@@ -11218,7 +11223,7 @@ footer.footer .social-link:hover {
 }
 .wrapper-ak{
   background: radial-gradient(circle, rgba(255,166,110,1) 0%, rgba(202,166,161,1) 39%, rgba(132,167,228,1) 80%, rgba(108,167,251,1) 91%, rgba(62,126,215,1) 100%);
-  border-radius: 0px 0px 0px 0px;
+  border-radius: 50px;
   width: 100%;
   margin-top:2%;
   height: auto;
@@ -11227,15 +11232,21 @@ footer.footer .social-link:hover {
   background-color: #ffffff60;
 }
 .wrapper-k{
-  background-color: #0e0e0e;
+  background-color: #fff;
   height: 160%;
 }
 .Kenntnisse-title{
+ 
+  letter-spacing:2px;
   background: linear-gradient( rgba(255,166,110,1) 0%, rgba(202,166,161,1) 50%, rgba(132,167,228,1) 80%, rgba(108,167,251,1) 91%, rgba(62,126,215,1) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 500;  
+  border: solid 1px transparent;
+  border-radius: 50px;
 }
+
 .projects-title{
   background: linear-gradient( rgba(255,166,110,1) 0%, rgba(202,166,161,1) 30%, rgba(132,167,228,1) 40%, rgba(108,167,251,1) 91%, rgba(62,126,215,1) 100%);
   -webkit-background-clip: text;
@@ -11245,12 +11256,16 @@ footer.footer .social-link:hover {
 .wrapper-p3{
   background-color: #ffffff05;
   border: solid 1px transparent;
-  border-radius: 0px;
-  min-width: 95%;
   border-radius: 50px;
+  min-width: 95%;
 }
 .img-border{
   background: linear-gradient(180deg, rgba(255,170,118,1) 0%,  rgba(62,126,215,1) 100%) border-box;
   border: 5px solid transparent;
   border-radius: 50px;
 }
+.projects-box{
+  padding-top: 7%;
+  border-radius: 50px;
+}
+
